@@ -1,0 +1,25 @@
+/* un commentaire en CSS! */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', 'sans-serif';
+    font-size: 16px;
+    color: #333333;
+}
+
+/* tous les paragraphes avec la classes bold (<p class="bold">) seront en gras */
+p.bold {
+    font-weight: bold;
+}
+
+/* tous les éléments ayant cette classe seront cachés */
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+#content {
+    /* Le contenu sera en Time New Roman */
+    font-family: 'Time New Roman';
+}
